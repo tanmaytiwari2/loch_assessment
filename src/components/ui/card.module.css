@@ -1,0 +1,96 @@
+.card {
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  background-color: var(--card);
+  color: var(--card-foreground);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.notificationCard {
+  width: 260px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  background: linear-gradient(to bottom, white, #f0f9ff);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.cardIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.checkmarkIcon {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+.cardTitle {
+  color: #19191A;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.cardText {
+  color: #19191A;
+  font-weight: 500;
+  font-size: 11.2px;
+  line-height: 1.2;
+}
+
+.cardInput {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+  padding: 0.25rem 0.5rem;
+  margin-top: 0.25rem;
+  background-color: white;
+}
+
+.cardContent {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.cardSelect {
+  width: max-content;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+  padding: 0.25rem 0.5rem;
+  margin-top: 0.25rem;
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.cardSelectTrigger {
+  width: max-content;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+  padding: 0.25rem 0.5rem;
+  margin-top: 0.5rem;
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.cardSubtext {
+  color: #19191A;
+  font-weight: 500;
+  font-size: 11.2px;
+  line-height: 1.2;
+  margin-top: 0.25rem;
+} 
